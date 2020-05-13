@@ -1,0 +1,18 @@
+{
+	"icon": "evopop",
+	"label": "EvoPop themes",
+	"description": "GTK e temas de ícones do Projeto Solus ",
+	"license": "GPLv3",
+	"category": "Temas",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query EvoPop-theme EvoPop-Azure-theme" }
+	}
+}

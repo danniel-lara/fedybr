@@ -1,0 +1,19 @@
+{
+	"icon": "jetbrains-toolbox",
+	"label": "JetBrains Toolbox App",
+	"description": "A toolbox to manage all your JetBrains applications.",
+	"license": "Free",
+	"proprietary": true,
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /opt/jetbrains-toolbox/jetbrains-toolbox" }
+	}
+}

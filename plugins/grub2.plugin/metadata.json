@@ -1,0 +1,12 @@
+{
+	"label": "GRUB2 configuration",
+	"description": "Execute os scripts de configuração do GRUB2 e atualize o arquivo de configuração. ",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Configure",
+			"command": "run-as-root -s setup.sh"
+		},
+		"show": { "command": "test -d /boot/grub2 -o -d /boot/efi/EFI/fedora" }
+	}
+}

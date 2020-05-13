@@ -1,0 +1,18 @@
+{
+	"icon": "masterpdf",
+	"label": "Master PDF editor",
+	"description": "Um conveniente e inteligente editor de XPS e PDF.",
+	"license": "Free for non-commercial use",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y erase master-pdf-editor"
+		},
+		"status": { "command": "rpm --quiet --query master-pdf-editor" }
+	}
+}

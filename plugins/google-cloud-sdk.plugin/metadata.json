@@ -1,0 +1,18 @@
+{
+	"icon": "Cloud_SDK",
+	"label": "Google Cloud SDK",
+	"description": "Ferramentas de linha de comando para o Google Cloud Platform ",
+	"license": "ASL 2.0",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s remove.sh"
+		},
+		"status": { "command": "rpm --quiet --query google-cloud-sdk" }
+	}
+}

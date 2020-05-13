@@ -1,0 +1,18 @@
+{
+	"icon": "neofetch",
+	"label": "Neofetch",
+	"description": "Mostra Informações sobre seu Sistema similar ao Screenfetch ( Uso via Terminal ). ",
+	"license": "MIT",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query neofetch" }
+	}
+}

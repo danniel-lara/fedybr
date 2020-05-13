@@ -1,0 +1,18 @@
+{
+	"icon": "suricata",
+	"label": "Suricata",
+	"description": "Suricata é capaz de detecção de intrusão em tempo real (IDS), prevenção de intrusão em linha (IPS), monitoramento de segurança de rede (NSM) e processamento de pcap offline.  ",
+	"license": "GPLv2",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query suricata" }
+	}
+}

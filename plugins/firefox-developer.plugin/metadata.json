@@ -1,0 +1,18 @@
+{
+	"icon": "firefox-developer",
+	"label": "Firefox Developer Edition",
+	"description": "Um navegador rápido e estável após um rápido ciclo de liberação de 6 semanas .",
+	"license": "MPL2",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /usr/bin/firefox-developer" }
+	}
+}

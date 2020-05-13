@@ -1,0 +1,17 @@
+{
+	"label": "SmartGit",
+	"description": "SmartGit é um cliente Git com suporte para solicitações de recebimento do GitHub + Comentários, SVN e Mercurial",
+	"license": "Proprietario",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /usr/bin/smartgit" }
+	}
+}

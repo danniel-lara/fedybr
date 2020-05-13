@@ -1,0 +1,17 @@
+{
+	"icon": "drive-harddisk",
+	"label": "Disk I/O Scheduler",
+	"description": "Mude o Deadline scheduler para aumentar o desempenho de SSDs e HDDs",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Setup",
+			"command": "run-as-root -s setup.sh"
+		},
+		"undo": {
+			"label": "Reverter",
+			"command": "run-as-root rm -f /etc/udev/rules.d/60-io_schedulers.rules"
+		},
+		"status": { "command": "test -f /etc/udev/rules.d/60-io_schedulers.rules" }
+	}
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 Satyajit Sahoo <satyajit.happy@gmail.com> -->
+<application>
+    <id type="desktop">org.rpmfusion.fedy.desktop</id>
+    <licence>GFDL</licence>
+    <name>Fedy</name>
+    <summary>Instalar codecs, software, and outros...</summary>
+    <description>
+        <p>
+        Fedy lets you install multimedia codecs and additional software that
+        Fedora doesn't want to ship, like h264 support, Adobe Flash, Oracle Java
+        etc., and much more with just a few clicks.
+        </p>
+    </description>
+    <screenshots>
+        <screenshot type="default" width="800" height="647">https://github.com/rpmfusion-infra/fedy/raw/master/fedy-screenshot-0.png</screenshot>
+    </screenshots>
+    <url type="homepage">https://github.com/rpmfusion-infra/fedy</url>
+    <updatecontact>lord.danniel@gmail.com</updatecontact>
+</application>

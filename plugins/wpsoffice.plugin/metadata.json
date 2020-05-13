@@ -1,0 +1,18 @@
+{
+	"icon": "wps-office",
+	"label": "WPS Office",
+	"description": "Suíte de escritório simples e poderosa com uma interface confortável",
+	"license": "Proprietary",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove wps-office"
+		},
+		"status": { "command": "rpm --quiet --query wps-office" }
+	}
+}

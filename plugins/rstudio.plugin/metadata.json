@@ -1,0 +1,18 @@
+{
+	"icon": "rstudio",
+	"label": "RStudio",
+	"description": "IDE de código aberto para R com ferramentas internas para plotagem e exibição de dados.",
+	"license": "AGPL",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove rstudio"
+		},
+		"status": { "command": "rpm --quiet --query rstudio" }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"icon": "vivaldi",
+	"label": "Vivaldi",
+	"description": "Um navegador avançado feito com o usuário com mente avançada",
+	"license": "Proprietary",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove vivaldi-stable"
+		},
+		"status": { "command": "rpm --quiet --query vivaldi-stable" }
+	}
+}

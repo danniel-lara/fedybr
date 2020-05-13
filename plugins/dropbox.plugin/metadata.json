@@ -1,0 +1,18 @@
+{
+	"icon": "dropbox",
+	"label": "Dropbox for Nautilus",
+	"description": "Integração com o Dropbox para o gerenciador de arquivos GNOME.",
+	"license": [ "GPL", "CC-BY-ND-3" ],
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install nautilus-dropbox"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove nautilus-dropbox"
+		},
+		"status": { "command": "rpm --quiet --query nautilus-dropbox" }
+	}
+}

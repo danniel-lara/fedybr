@@ -1,0 +1,18 @@
+{
+	"icon": "vbam",
+	"label": "VisualBoyAdvance",
+	"description": "Emulador de Gameboy Advance/Gameboy Color/Gameboy",
+	"license": "GPLv2",
+	"category": "Jogos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query visualboyadvance-m" }
+	}
+}

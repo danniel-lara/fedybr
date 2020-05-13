@@ -1,0 +1,18 @@
+{
+	"icon": "pcsx2",
+	"label": "Pcsx2",
+	"description": "Emulador de PlayStation 2",
+	"license": "GPLv2 and GPLv3+ and LGPLv2+ and LGPLv3",
+	"category": "Jogos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query pcsx2" }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"icon": "sublime-text-2",
+	"label": "Sublime Text 2 (Deprecated)",
+	"description": "Editor de texto sofisticado para código, marcação e prosa.",
+	"proprietary": true,
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /opt/sublime_text_2/sublime_text" }
+	}
+}

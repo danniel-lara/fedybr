@@ -1,0 +1,18 @@
+{
+	"icon": "gcube",
+	"label": "Gcube",
+	"description": "Emulador de Gamecube",
+	"license": "GPLv2+",
+	"category": "Jogos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query gcube" }
+	}
+}

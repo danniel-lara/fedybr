@@ -1,0 +1,18 @@
+{
+	"icon": "telegram-desktop",
+	"label": "Telegram",
+	"description": "Um aplicativo de mensagens com foco em velocidade e segurança.",
+	"license": "GPLv2",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install telegram-desktop"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove telegram-desktop"
+		},
+		"status": { "command": "rpm --quiet --query telegram-desktop" }
+	}
+}

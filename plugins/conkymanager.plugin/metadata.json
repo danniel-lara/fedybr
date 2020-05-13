@@ -1,0 +1,18 @@
+{
+	"icon": "conky-manager",
+	"label": "Conky-Manager",
+	"description": "Uma GUI simples para gerenciar arquivos de configuração da Conky. Opções para alterando temas e executando o Conky na inicialização",
+	"license": "ASL 2.0",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query conky-manager" }
+	}
+}

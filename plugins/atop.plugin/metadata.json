@@ -1,0 +1,18 @@
+{
+	"icon": "atop",
+	"label": "Atop",
+	"description": "Um monitor interativo avançado para visualizar a carga no nível do sistema e do processo ( Uso via Terminal ). ",
+	"license": "GPLv2+",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query atop" }
+	}
+}

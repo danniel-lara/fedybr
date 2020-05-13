@@ -1,0 +1,19 @@
+{
+	"icon": "gitkraken",
+	"label": "GitKraken",
+	"description": "Cliente Git absolutamente luxuoso",
+	"license": "Freemium",
+	"proprietary": true,
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install https://release.gitkraken.com/linux/gitkraken-amd64.rpm"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove gitkraken"
+		},
+		"status": { "command": "rpm -q --quiet gitkraken" }
+	}
+}

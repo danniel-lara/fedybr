@@ -1,0 +1,17 @@
+{
+	"icon": "utilities-terminal",
+	"label": "Fancy Bash prompt",
+	"description": " Adicione cores ao prompt do bash para destacá-lo ",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Setup",
+			"command": "run-as-root -s setup.sh"
+		},
+		"undo": {
+			"label": "Reverter",
+			"command": "run-as-root rm -f /etc/profile.d/color_prompt.sh"
+		},
+		"status": { "command": "test -f /etc/profile.d/color_prompt.sh" }
+	}
+}

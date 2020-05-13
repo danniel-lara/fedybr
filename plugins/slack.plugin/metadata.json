@@ -1,0 +1,18 @@
+{
+	"icon": "slack",
+	"label": "Slack",
+	"description": "Slack é um conjunto baseado em nuvem de ferramentas e serviços de colaboração em equipe",
+	"license": "Proprietary",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y erase slack"
+		},
+		"status": { "command": "rpm --quiet --query slack" }
+	}
+}

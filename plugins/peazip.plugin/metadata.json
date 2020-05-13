@@ -1,0 +1,18 @@
+{
+	"icon": "peazip",
+	"label": "PeaZip",
+	"description": "Arquivador de arquivos de código aberto para suporte a vários formatos GNU/Linux ",
+	"license": "LGPLv3",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query peazip" }
+	}
+}

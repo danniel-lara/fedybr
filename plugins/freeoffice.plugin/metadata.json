@@ -1,0 +1,18 @@
+{
+	"icon": "freeoffice",
+	"label": "FreeOffice",
+	"description": "Suíte de escritório simples e poderosa uma alternativa gratuita ao Microsoft Office",
+	"license": "Comercial",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove softmaker-freeoffice-2018-2018-976.x86_64"
+		},
+		"status": { "command": "rpm --quiet --query softmaker-freeoffice-2018-2018-976.x86_64" }
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"label": "Adapta Theme",
+	"description": "Um tema adaptável do Gtk + baseado nas Diretrizes de design de materiais.",
+	"license": "GPLv2",
+	"category": "Temas",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install adapta-gtk-theme"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove adapta-gtk-theme"
+		},
+		"status": { "command": "rpm --quiet --query adapta-gtk-theme" }
+	}
+}

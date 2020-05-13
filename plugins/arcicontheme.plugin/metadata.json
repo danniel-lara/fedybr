@@ -1,0 +1,17 @@
+{
+	"label": "Arc Icon Theme",
+	"description": "Um tema de ícone plano.",
+	"license": "GPLv3",
+	"category": "Temas",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query arc-icon-theme" }
+	}
+}

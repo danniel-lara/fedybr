@@ -1,0 +1,18 @@
+{
+	"icon": "",
+	"label": "Broadcom 802.11 STA driver",
+	"description": " Legacy driver para wifi e outros devices",
+	"license": "Proprietary",
+	"category": "Drivers",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s remove.sh "
+		},
+		"status": { "command": "rpm --quiet --query broadcom-wl" }
+	}
+}

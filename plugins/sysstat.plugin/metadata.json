@@ -1,0 +1,18 @@
+{
+	"icon": "sysstat",
+	"label": "Sysstat",
+	"description": "O SYSSTAT é um pacote de softwares para monitoramento da performance do Linux( Uso via Terminal ). ",
+	"license": "GPLv3",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query sysstat" }
+	}
+}

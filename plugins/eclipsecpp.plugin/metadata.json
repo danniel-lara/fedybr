@@ -1,0 +1,17 @@
+{
+	"icon": "eclipse",
+	"label": "Eclipse IDE para Desenvolvedores C/C++",
+	"description": "Um IDE para desenvolvedores de C/C++ com integração Mylyn",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /opt/eclipse-cpp/eclipse" }
+	}
+}

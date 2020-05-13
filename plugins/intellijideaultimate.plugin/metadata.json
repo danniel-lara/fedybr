@@ -1,0 +1,19 @@
+{
+	"icon": "intellij-idea-ue",
+	"label": "IntelliJ IDEA Ultimate Edition",
+	"description": "Um conjunto de ferramentas completo para desenvolvimento web, móvel e empresarial.",
+	"license": "Comercial free por 30 dias trial",
+	"proprietary": true,
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "test -f /opt/intellij-idea-ultimate/bin/idea.sh" }
+	}
+}

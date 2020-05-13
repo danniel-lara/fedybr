@@ -1,0 +1,18 @@
+{
+	"icon": "nvidia-settings",
+	"label": "CUDA NVIDIA machine learning",
+	"description": "Bibliotecas de aprendizado de máquina para CUDA",
+	"license": "Proprietario",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s remove.sh "
+		},
+		"status": { "command": "rpm --quiet --query libcudnn7" }
+	}
+}

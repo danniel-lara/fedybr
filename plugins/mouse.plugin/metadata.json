@@ -1,0 +1,16 @@
+{
+	"label": "Disable mouse acceleration",
+	"description": "Desativar a aceleração do mouse fará com que a velocidade do cursor do mouse seja sempre a mesma.",
+	"category": "Tweaks",
+	"scripts": {
+		"exec": {
+			"label": "Setup",
+			"command": "run-as-root -s setup.sh"
+		},
+		"undo": {
+			"label": "Reverter",
+			"command": "run-as-root -s revert.sh"
+		},
+		"status": { "command": "test -f /etc/X11/xorg.conf.d/50-mouse-acceleration.conf" }
+	}
+}

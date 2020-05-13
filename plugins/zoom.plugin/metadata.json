@@ -1,0 +1,18 @@
+{
+	"icon": "zoom",
+	"label": "Zoom",
+	"description": "Zoom oferece software de comunicação que combina videoconferência, reuniões on-line, bate-papo e colaboração móvel",
+	"license": "Proprietary",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y erase zoom"
+		},
+		"status": { "command": "rpm --quiet --query zoom" }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"icon": "google-webdesigner",
+	"label": "Google Web Designer",
+	"description": "Crie designs interativos e baseados em HTML5, atraentes e executados em qualquer dispositivo ",
+	"license": "Proprietario",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove google-webdesigner"
+		},
+		"status": { "command": "rpm --quiet --query google-webdesigner" }
+	}
+}

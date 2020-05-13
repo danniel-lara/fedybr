@@ -1,0 +1,18 @@
+{
+	"icon": "google-earth-pro",
+	"label": "Google Earth Pro",
+	"description": "Explore, pesquise e descubra o planeta ",
+	"license": "Multiple, see http://www.google.com/earth",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove google-earth-pro-stable"
+		},
+		"status": { "command": "rpm --quiet --query google-earth-pro-stable" }
+	}
+}

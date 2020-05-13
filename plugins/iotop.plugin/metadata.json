@@ -1,0 +1,18 @@
+{
+	"icon": "iotop",
+	"label": "Iotop",
+	"description": "Mostra o I/O do processo ( Uso via Terminal ). ",
+	"license": "GPLv2",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query iotop" }
+	}
+}

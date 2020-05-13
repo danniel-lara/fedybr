@@ -1,0 +1,18 @@
+{
+	"icon": "plexmediaplayer",
+	"label": "Plex Media Player",
+	"description": "O Plex permite desfrutar de todas as suas mídias, seja na sala de estar, no carro ou em um barco no Pacífico Sul!",
+	"license": "GPLv2+",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install plex-media-player"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query plex-media-player" }
+	}
+}

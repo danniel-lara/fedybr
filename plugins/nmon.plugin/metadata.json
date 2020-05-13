@@ -1,0 +1,18 @@
+{
+	"icon": "nmon",
+	"label": "Nmon",
+	"description": "Nmon é uma ferramenta de benchmark, que fornece informações sobre CPU, discos, rede, etc.,tudo em uma exibição ( Uso via Terminal ). ",
+	"license": "GPLv3",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query nmon" }
+	}
+}

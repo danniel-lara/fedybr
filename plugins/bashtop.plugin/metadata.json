@@ -1,0 +1,18 @@
+{
+	"icon": "bashtop",
+	"label": "Bashtop",
+	"description": "Monitor de recursos e uso de processador , memória, disco ,rede , processos em bash (Uso via Terminal)",
+	"license": "ASL 2.0",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query bashtop" }
+	}
+}

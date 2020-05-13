@@ -1,0 +1,18 @@
+{
+	"icon": "eclipse",
+	"label": "Yatta Eclipse Launcher",
+	"description": "Uma caixa de ferramentas Eclipse para instalar e gerenciar produtos e perfis Eclipse",
+	"license": "Free",
+	"category": "Ferramentas de Desenvolvimento",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root rm --force /opt/yatta-eclipse-launcher.jar"
+		},
+		"status": { "command": "test -f /opt/yatta-eclipse-launcher.jar" }
+	}
+}

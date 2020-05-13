@@ -1,0 +1,18 @@
+{
+	"icon": "monit",
+	"label": "Monit",
+	"description": "Gerencia e monitora processos, arquivos, diretórios e dispositivos. ",
+	"license": "GPLv2",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query monit" }
+	}
+}

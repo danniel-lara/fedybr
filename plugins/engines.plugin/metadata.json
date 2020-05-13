@@ -1,0 +1,18 @@
+{
+	"icon": "preferences-desktop-theme",
+	"label": "Theme engines",
+	"description": "Usado por temas GTK para desenhar widgets .",
+	"license": [ "LGPLv2", "LGPLv3" ],
+	"category": "Utilidades",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install gtk-murrine-engine gtk-unico-engine"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove gtk-murrine-engine gtk-unico-engine"
+		},
+		"status": { "command": "rpm --quiet --query gtk-murrine-engine gtk-unico-engine" }
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"icon": "web-google-hangouts",
+	"label": "Google Hangouts plugin",
+	"description": "Tenha conversas de voz e vídeo em seu computador .",
+	"license": "Proprietario",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove google-talkplugin"
+		},
+		"status": { "command": "rpm --quiet --query google-talkplugin" }
+	}
+}

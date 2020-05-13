@@ -1,0 +1,18 @@
+{
+	"icon": "mixxx",
+	"label": "Mixxx DJ Software",
+	"description": "Mixxx integra as ferramentas que os DJs precisam para fazer mixagens criativas ao vivo com arquivos de música digital. ",
+	"license": "GPLv2",
+	"category": "Aplicativos",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root dnf -y install mixxx"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove mixxx"
+		},
+		"status": { "command": "rpm --quiet --query mixxx" }
+	}
+}

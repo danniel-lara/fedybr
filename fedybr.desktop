@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=FedyBr
+GenericName=Fedybr
+Icon=fedybr
+Comment=Instalar codecs e software adicionais
+Exec=fedybr
+Terminal=false
+Type=Application
+Categories=Utility;X-Fedora;
+Keywords=clean;codec;fedora;fix;install;proprietary;

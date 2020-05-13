@@ -1,0 +1,18 @@
+{
+	"icon": "moka",
+	"label": "Moka Icon Theme",
+	"description": "Moka é um projeto de ícone do FreeDesktop de código aberto de Sam Hewitt.",
+	"license": "CC BY-SA 4.0",
+	"category": "Temas",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root dnf -y remove moka-icon-theme"
+		},
+		"status": { "command": "rpm --quiet --query moka-icon-theme" }
+	}
+}

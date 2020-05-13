@@ -1,0 +1,18 @@
+{
+	"icon": "",
+	"label": "pulseaudio-module-bluetooth-freeworld",
+	"description": "Bluetooth audio (A2DP/HSP/HFP) suporte para  PulseAudio.",
+	"license": "GPLv3+",
+	"category": "Drivers",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s remove.sh "
+		},
+		"status": { "command": "rpm --quiet --query pulseaudio-module-bluetooth-freeworld" }
+	}
+}

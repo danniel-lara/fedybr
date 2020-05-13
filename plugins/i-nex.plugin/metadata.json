@@ -1,0 +1,18 @@
+{
+	"icon": "i-nex",
+	"label": "I-NEX",
+	"description": "Infomação sobre Hardware similar ao CPU-Z do Windows",
+	"license": "GPLv3 e LGPLv3",
+	"category": "Info/Monitor",
+	"scripts": {
+		"exec": {
+			"label": "Instalar",
+			"command": "run-as-root -s install.sh"
+		},
+		"undo": {
+			"label": "Remover",
+			"command": "run-as-root -s uninstall.sh"
+		},
+		"status": { "command": "rpm --quiet --query i-nex" }
+	}
+}
