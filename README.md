@@ -2,25 +2,23 @@
 O o Fedybr é um fork do projeto fedy 
 
 
-### Introduction
+### Introdução 
 
-O Fedy permite instalar codecs de multimídia e software adicional que [não estão nos repo Oficiais] (http://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems) do Fedora , como suporte ao H264, Adobe Flash, Oracle Java etc., e muito mais com apenas alguns cliques.
+O Fedy permite instalar codecs de multimídia e software adicional que não estão nos repo Oficiais do Fedora (http://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems), como suporte ao H264, Adobe Flash, Oracle Java etc., e muito mais com apenas alguns cliques.
 
-### Installation
+### Instalalçao 
 
-Installation instructions can be found on https://github.com/rpmfusion-infra/fedy.
-
-_Do not follow instructions from any other source!_
+Para a insalação é necessário ter o repositório do rpmfusion instalado 
 
 ```
 # RPM Fusion
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-# Install fedy copr repository
-sudo dnf copr enable kwizart/fedy
+# Download do pacote do Fedybr
+wget https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
 
-# Install fedy
-sudo dnf install fedy -y
+# Instala o Fedy
+sudo rpm -ivh fedybr-5.0.6.2-5.fc32.noarch.rpm
 
 ```
 
