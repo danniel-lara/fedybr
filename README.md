@@ -51,7 +51,7 @@ $ git clone https://github.com/rpmfusion-infra/fedy
 Envie bugs e solicitações de recursos [aqui][fedybr/issues]. As solicitações pull são
 sempre bem-vindo.
 
-[fedy/issues]: https://github.com/danniel-lara/fedybr/issues
+[fedybr/issues]: https://github.com/danniel-lara/fedybr/issues
 
 ### License
 
@@ -66,4 +66,4 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
 this program.  If not, see [gnu.org/licenses](http://www.gnu.org/licenses/).
-# fedybr
+
