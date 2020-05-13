@@ -28,13 +28,14 @@ Após a instalação, procure por `FedyBr` no menu ou digite` fedybr` no termina
 
 ### Estrutura de plugins
 
-Plugins can be placed under `~/.local/share/fedy/plugins/`, or the system plugins directory.
+Os plugins podem ser colocados em `/usr/share/fedybr/plugins`
 
-Each plugin is a directory with the suffix `.plugin`, which consist of a JSON formatted metadata file. The metadata file contains information about the plugin and describes how `Fedy` should run the tasks.
+ Cada plug-in é um diretório com o sufixo`.plugin`, que consistem em um arquivo de metadados formatado em JSON. O arquivo de metadados contém informações sobre o plug-in e descreve como  o `Fedybr` deve executar as tarefas.
 
-The plugins can run any command or scripts (`bash`, `python` etc.). In addtion to the system commands, `Fedy` provides an additional command, `run-as-root` to allow running commands (e.g.- `run-as-root touch /some/file/somewhere`) or scripts (e.g.- `run-as-root -s do-stuff.sh`) as root.
+Os plugins podem executar qualquer comando ou script (`bash`, `python` etc.).Além dos comandos do sistema, `Fedybr` 
+fornece um comando adicional, `run-as-root` para permitir a execução de comandos (e.g.- `run-as-root touch /some/file/somewhere`) ou scripts (e.g.- `run-as-root -s do-stuff.sh`) como root.
 
-Have a look at the existing plugins to know more about how to write plugins for `Fedy`.
+Veja os plug-ins existentes para saber mais sobre como escrever plug-ins para o  `Fedybr`.
 
 ### Código  Fonte
 
