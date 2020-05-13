@@ -1,6 +1,10 @@
+### FedyBR 
+O o Fedybr é um fork do projeto fedy 
+
+
 ### Introduction
 
-Fedy lets you install multimedia codecs and additional software that Fedora [doesn't want to ship](http://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems), like H264 support, Adobe Flash, Oracle Java etc., and much more with just a few clicks.
+O Fedy permite instalar codecs de multimídia e software adicional que [não estão nos repo Oficiais] (http://fedoraproject.org/wiki/Forbidden_items?rd=ForbiddenItems) do Fedora , como suporte ao H264, Adobe Flash, Oracle Java etc., e muito mais com apenas alguns cliques.
 
 ### Installation
 
