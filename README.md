@@ -46,12 +46,12 @@ Source code is publicly available on GitHub, and automatically cloned to GitLab:
 $ git clone https://github.com/rpmfusion-infra/fedy
 ```
 
-### Bugs and feature requests
+### Bugs e solicitações de recursos
 
-Please submit bugs and feature requests [here][fedy/issues]. Pull requests are
-always welcome.
+Envie bugs e solicitações de recursos [aqui][fedybr/issues]. As solicitações pull são
+sempre bem-vindo.
 
-[fedy/issues]: https://github.com/rpmfusion-infra/fedy/issues
+[fedy/issues]: https://github.com/danniel-lara/fedybr/issues
 
 ### License
 
