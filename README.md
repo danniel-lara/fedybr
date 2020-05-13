@@ -22,11 +22,11 @@ sudo rpm -ivh fedybr-5.0.6.2-5.fc32.noarch.rpm
 
 ```
 
-### Usage
+### Uso
 
-After installation, search for `Fedy` in the menu/overview or type `fedy` in the terminal.
+Após a instalação, procure por `FedyBr` no menu ou digite` fedybr` no terminal.
 
-### Plugin structure
+### Estrutura de plugins
 
 Plugins can be placed under `~/.local/share/fedy/plugins/`, or the system plugins directory.
 
@@ -36,14 +36,14 @@ The plugins can run any command or scripts (`bash`, `python` etc.). In addtion t
 
 Have a look at the existing plugins to know more about how to write plugins for `Fedy`.
 
-### Source code
+### Código  Fonte
 
-Source code is publicly available on GitHub, and automatically cloned to GitLab:
+O código-fonte está disponível publicamente no GitHub
 
 
 ```
 
-$ git clone https://github.com/rpmfusion-infra/fedy
+$ git clone https://github.com/danniel-lara/fedybr
 ```
 
 ### Bugs e solicitações de recursos
