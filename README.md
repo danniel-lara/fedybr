@@ -1,5 +1,6 @@
 ### Fedybr
-O  Fedybr é um fork do projeto [fedy]( https://github.com/rpmfusion-infra/fedy)
+O  Fedybr é um fork do projeto [fedy]( https://github.com/rpmfusion-infra/fedy) ,com algumas melhorias ,
+como tradução e adicionado alguns elmuladores e softwares de info/monitoramento 
 
 
 ### Introdução 
