@@ -19,7 +19,7 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 wget https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
 
 # Instala o Fedy
-sudo rpm -ivh fedybr-5.0.6.2-5.fc32.noarch.rpm
+sudo dnf install fedybr-5.0.6.2-5.fc32.noarch.rpm
 
 ```
 
