@@ -1,5 +1,5 @@
-### FedyBR 
-O o Fedybr é um fork do projeto fedy 
+### Fedybr
+O  Fedybr é um fork do projeto [fedy]( https://github.com/rpmfusion-infra/fedy)
 
 
 ### Introdução 
