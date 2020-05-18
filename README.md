@@ -21,6 +21,10 @@ wget https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
 # Instala o Fedy
 sudo dnf install fedybr-5.0.6.2-5.fc32.noarch.rpm
 
+Ou 
+
+sudo dnf install https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
+
 ```
 
 ### Uso
