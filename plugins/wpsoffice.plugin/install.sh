@@ -1,9 +1,3 @@
 #!/bin/bash
 
-URL=$(wget "http://wps-community.org/download.html" -O - | tr ' ' '\n' | grep -o "https\?://.*/wps-office-.*$(uname -m).rpm\"" | head -n 1 | rev | cut -c 2- | rev )
- 
-if [[ "$URL" != "" ]]; then
-	dnf -y install "$URL"
-else
-	exit 1
-fi
+dnf -y install http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/9615/wps-office-11.1.0.9615.XA-1.x86_64.rpm

@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE for Eclipse Committers 4.4.2",
 	"description": "Pacote adequado para o desenvolvimento do próprio Eclipse no Eclipse.org; com base na plataforma Eclipse, incluindo PDE, Git, Marketplace Client, código fonte e documentação do desenvolvedor. ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

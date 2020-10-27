@@ -3,7 +3,7 @@
 	"label": "CUDA NVIDIA machine learning",
 	"description": "Bibliotecas de aprendizado de máquina para CUDA",
 	"license": "Proprietario",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -4,7 +4,7 @@
 	"description": "IDE JavaScript mais inteligente.",
 	"license": "Commercial",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

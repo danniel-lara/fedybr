@@ -3,7 +3,7 @@
 	"label": "arm-linux-gnueabi-toolchain",
 	"description": "Do repo copr lantw44/arm-linux-gnueabi-toolchain",
 	"license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

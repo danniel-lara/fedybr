@@ -3,7 +3,7 @@
 	"label": "Sublime Text 2 (Deprecated)",
 	"description": "Editor de texto sofisticado para código, marcação e prosa.",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE para Desenvolvedores C/C++",
 	"description": "Um IDE para desenvolvedores de C/C++ com integração Mylyn",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

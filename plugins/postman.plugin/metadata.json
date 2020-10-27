@@ -4,7 +4,7 @@
 	"description": "A cadeia de ferramentas mais completa para desenvolvedores de API",
 	"license": "Freeware",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

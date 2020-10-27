@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE para Desenvolvedores de Java e relatórios",
 	"description": "Ferramentas Java EE e ferramenta de relatório BIRT para desenvolvedores Java criar aplicativos Java EE e Web que também possuem necessidades de relatórios.",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

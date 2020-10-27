@@ -3,7 +3,7 @@
 	"label": "Google Cloud SDK",
 	"description": "Ferramentas de linha de comando para o Google Cloud Platform ",
 	"license": "ASL 2.0",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

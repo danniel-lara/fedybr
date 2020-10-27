@@ -4,7 +4,7 @@
 	"description": "O IDE mais inteligente para Ruby e Rails",
 	"license": "Comercial 30 dias free trial",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

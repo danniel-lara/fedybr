@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse Ferramentas de modelagem",
 	"description": "O pacote de modelagem fornece ferramentas e tempos de execução para a criação de aplicativos baseados em modelo. Você pode usá-lo para projetar graficamente modelos de domínio, alavancá-los no momento da criação, criando e editando instâncias dinâmicas, para colaborar através do suporte da equipe do Eclipse com recursos para comparar e mesclar modelos e instâncias de modelo estruturalmente e, finalmente, para gerar código Java a partir desses modelos para produzir aplicações completas. Além disso, por meio do catálogo de descoberta do pacote, você pode instalar facilmente uma ampla variedade de ferramentas e tempos de execução adicionais poderosos baseados em modelos para atender às suas necessidades específicas.",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

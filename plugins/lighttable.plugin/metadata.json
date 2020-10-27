@@ -3,7 +3,7 @@
 	"label": "LightTable",
 	"description": "O editor de código da próxima geração.",
 	"license": "MIT",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

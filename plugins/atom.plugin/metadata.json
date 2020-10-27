@@ -3,7 +3,7 @@
 	"label": "Atom",
 	"description": "Um editor de texto hackável para o século XXI.",
 	"license": "MIT",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -3,7 +3,7 @@
 	"label": "Sublime Text 3",
 	"description": "Editor de texto sofisticado para código, marcação e prosa.",
 	"license": "Proprietario",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

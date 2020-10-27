@@ -3,7 +3,7 @@
 	"label": "Bluefish",
 	"description": "Aplicativo de desenvolvimento da Web para usuários experientes",
 	"license": "GPLv3+",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -3,7 +3,7 @@
 	"label": "Visual Studio Code",
 	"description": "Editor de código fonte desenvolvida pela Microsoft",
 	"license": "MIT",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

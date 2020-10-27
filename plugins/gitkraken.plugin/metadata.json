@@ -4,7 +4,7 @@
 	"description": "Cliente Git absolutamente luxuoso",
 	"license": "Freemium",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

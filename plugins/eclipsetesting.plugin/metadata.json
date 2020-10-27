@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse para Testers",
 	"description": "Este pacote contém recursos do Eclipse que suportam o processo de garantia de qualidade de desenvolvimento de software, como Jubula e Mylyn. ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

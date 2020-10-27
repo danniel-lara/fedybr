@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse para Desenvolvedores PHP",
 	"description": "As ferramentas essenciais para qualquer desenvolvedor PHP, incluindo suporte à linguagem PHP, cliente Git, Mylyn e editores para JavaScript, HTML, CSS e XML. ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -2,7 +2,7 @@
 	"label": "Arduino",
 	"description": "Arduino Software Open Source (IDE).",
 	"license": "GNU GPLv2",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

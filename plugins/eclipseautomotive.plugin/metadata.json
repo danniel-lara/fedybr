@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE para desenvolvedores de software automotivo",
 	"description": "Este pacote contém estruturas e ferramentas usadas para o desenvolvimento de software automotivo incorporado: além da plataforma Eclipse, das ferramentas de desenvolvimento Java e do ambiente de desenvolvimento de plug-ins, inclui EMF, Sphinx, GMF, Xtext, Xtend, Xpand, UML2, outros selecionados. componentes de modelagem, ferramentas de desenvolvimento C/C++ e editores e ferramentas XML/XSD. Para manter o pacote em um tamanho razoável, ele inclui apenas os binários de tempo de execução, mas nenhum código fonte e documentação do desenvolvedor  ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

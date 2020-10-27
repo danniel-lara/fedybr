@@ -2,7 +2,7 @@
 	"icon": "applications-development",
 	"label": "GNOME developement tools",
 	"description": "Tudo o que você precisa para começar a desenvolver software para o GNOME.",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -3,7 +3,7 @@
 	"label": "IntelliJ IDEA Community Edition",
 	"description": "Um IDE de código aberto e gratuito para desenvolvimento Java, Groovy, Scala e Android .",
 	"license": "Apache 2.0",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

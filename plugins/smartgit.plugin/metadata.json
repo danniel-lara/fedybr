@@ -2,7 +2,7 @@
 	"label": "SmartGit",
 	"description": "SmartGit é um cliente Git com suporte para solicitações de recebimento do GitHub + Comentários, SVN e Mercurial",
 	"license": "Proprietario",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

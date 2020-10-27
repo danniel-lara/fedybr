@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse para Desenvolvedores RCP e RAP",
 	"description": "Um conjunto completo de ferramentas para desenvolvedores que desejam criar plug-ins do Eclipse, Rich Client Applications ou Remote Application Platform (RCP + RAP), além de Mylyn, a integração m2e Maven e um editor XML. Além do provedor CVS Eclipse Team, ele também contém as ferramentas EGit para acessar os sistemas de controle de versão Git.   ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

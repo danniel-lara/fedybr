@@ -4,7 +4,7 @@
 	"description": "Um conjunto de ferramentas completo para desenvolvimento web, móvel e empresarial.",
 	"license": "Comercial free por 30 dias trial",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -6,7 +6,7 @@
 	"scripts": {
 		"exec": {
 			"label": "Instalar",
-			"command": "run-as-root dnf -y install adapta-gtk-theme"
+			"command": "run-as-root -s install.sh"
 		},
 		"undo": {
 			"label": "Remover",

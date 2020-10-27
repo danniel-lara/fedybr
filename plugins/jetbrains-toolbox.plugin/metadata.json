@@ -4,7 +4,7 @@
 	"description": "A toolbox to manage all your JetBrains applications.",
 	"license": "Free",
 	"proprietary": true,
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

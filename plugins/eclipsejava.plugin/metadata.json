@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE para Desenvolvedores Java",
 	"description": "As ferramentas essenciais para qualquer desenvolvedor Java, incluindo Java IDE, cliente CVS, cliente Git, XML Editor, Mylyn, integração com Maven e WindowBuilder",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

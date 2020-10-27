@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse IDE para Desenvolvedores Java EE",
 	"description": "Ferramentas para desenvolvedores Java que criam aplicativos Java EE e Web, incluindo um IDE Java, ferramentas para Java EE, JPA, JSF, Mylyn, EGit e outros.",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse para Desenvolvedores de aplicativos paralelos",
 	"description": "Ferramentas para C, C++, Fortran e UPC, incluindo MPI, OpenMP, OpenACC, um depurador paralelo e criação remota, execução e monitoramento de aplicativos. ",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

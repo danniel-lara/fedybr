@@ -3,7 +3,7 @@
 	"label": "CUDA Toolkit",
 	"description": "Instalar NVIDIA CUDA Toolkit",
 	"license": "Proprietario",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

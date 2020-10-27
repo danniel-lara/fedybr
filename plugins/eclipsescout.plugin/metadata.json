@@ -2,7 +2,7 @@
 	"icon": "eclipse",
 	"label": "Eclipse para Desenvolvedores Scout",
 	"description": "Eclipse Scout é uma estrutura para desenvolver aplicativos de negócios baseados em Java/Eclipse que são executados na área de trabalho, em navegadores e em dispositivos móveis. Este pacote inclui um SDK completo, ferramentas úteis para desenvolvedores e código fonte.",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

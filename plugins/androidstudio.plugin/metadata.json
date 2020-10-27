@@ -3,7 +3,7 @@
 	"label": "Android Studio",
 	"description": "IDE oficial para desenvolvimento de aplicativos Android, baseado no IntelliJ IDE",
 	"license": "Apache 2.0",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",

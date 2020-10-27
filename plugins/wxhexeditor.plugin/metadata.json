@@ -3,7 +3,7 @@
 	"label": "wxHexEditor",
 	"description": "Hex editor com suporte para arquivos grandes e dados de baixo nível",
 	"license": "GPLv2",
-	"category": "Ferramentas de Desenvolvimento",
+	"category": "Dev",
 	"scripts": {
 		"exec": {
 			"label": "Instalar",
