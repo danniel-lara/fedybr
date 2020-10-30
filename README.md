@@ -13,7 +13,9 @@ Para a insalação é necessário ter o repositório do rpmfusion instalado
 
 ```
 # RPM Fusion
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
+
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Download do pacote do Fedybr
 wget https://danniel.fedorapeople.org/fedybr/fedybr-2.3-1.fc33.noarch.rpm
