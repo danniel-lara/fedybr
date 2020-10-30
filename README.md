@@ -16,10 +16,10 @@ Para a insalação é necessário ter o repositório do rpmfusion instalado
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Download do pacote do Fedybr
-wget https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
+wget https://danniel.fedorapeople.org/fedybr/fedybr-2.3-1.fc33.noarch.rpm
 
 # Instala o Fedy
-sudo dnf install fedybr-5.0.6.2-5.fc32.noarch.rpm
+sudo dnf install fedybr-2.3-1.fc33.noarch.rpm
 
 Ou 
 
