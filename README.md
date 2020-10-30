@@ -23,7 +23,7 @@ sudo dnf install fedybr-2.3-1.fc33.noarch.rpm
 
 Ou 
 
-sudo dnf install https://danniel.fedorapeople.org/fedybr/fedybr-5.0.6.2-5.fc32.noarch.rpm
+sudo dnf install https://danniel.fedorapeople.org/fedybr/fedybr-2.3-1.fc33.noarch.rpm
 
 ```
 
